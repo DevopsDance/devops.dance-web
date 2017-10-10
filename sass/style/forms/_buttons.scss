@@ -1,0 +1,65 @@
+/* 4.2 Buttons ======================================================= */
+
+.btn {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: $btn-font-family;
+    font-weight: $btn-font-weight;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.26);
+    display: block;
+
+    &:not(.btn-lg):not(.btn-sm) {
+        font-size: $btn-font-size;
+    }
+
+    .icon {
+        margin-right: 8px;
+    }
+}
+
+.btn-link {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+
+.input-group {
+    .btn {
+        &:not(:first-child) {
+            margin-left: -1px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
+
+@each $i, $color in $color-scheme {
+    .btn-#{$i} {
+        @include button-variant($color, $color);
+    }
+
+    .btn-outline-#{$i} { @include button-outline-variant($color); }
+}
+
+.btn-accent { @include button-variant($btn-accent-bg, $btn-accent-bg); }
+.btn-outline-accent { @include button-outline-variant($color-3); }
+
+// fix outline-1
+.btn-outline-1 {
+    &:hover {
+        color: $color-5;
+    }
+}
+
+a.btn {
+    display: inline-block;
+}

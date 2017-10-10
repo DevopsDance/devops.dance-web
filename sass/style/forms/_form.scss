@@ -1,0 +1,56 @@
+/* 4.1 Form ======================================================= */
+
+form, .form {
+    &[response-message-animation] {
+        &,
+        + .response-message {
+            transition: transform .3s ease-in, opacity .3s ease-out;
+        }
+
+        &.submitted + .response-message {
+            opacity: 1;
+            position: relative;
+        }
+
+        &.submitted,
+        + .response-message {
+            opacity: 0;
+            position: absolute;
+        }
+    }
+
+    &[response-message-animation="slide-in-up"] {
+        &.submitted + .response-message {
+            transform: translateY(0);
+        }
+
+        &.submitted,
+        + .response-message {
+            transform: translateY(100%);
+        }
+    }
+
+    &[response-message-animation="slide-in-left"] {
+        &.submitted + .response-message {
+            transform: translateX(0);
+        }
+
+        &.submitted,
+        + .response-message {
+            transform: translateX(100%);
+        }
+    }
+
+    &.cozy {
+        .form-group {
+            margin-bottom: $padding-default * .5;
+        }
+    }
+
+    .form-group {
+        label.error {
+            color: theme-color("danger");
+            font-size: $font-size-small;
+        }
+    }
+}

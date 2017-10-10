@@ -1,0 +1,9 @@
+@mixin font-awesome($icon: '') {
+    display: inline-block;
+    font-family: $font-family-awesome; // shortening font declaration
+    font-size: inherit; // can't have font-size inherit on line above, so need to override
+    text-rendering: auto; // optimizelegibility throws things off #1094
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: $icon;
+}

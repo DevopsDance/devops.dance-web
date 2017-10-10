@@ -1,0 +1,22 @@
+/* 5.2 Mockups ======================================================= */
+
+.mockup-wrapper {
+    position: relative;
+}
+
+.mockup {
+    position: relative;
+    margin: 0 auto;
+    max-width: 300px;
+
+    @include media-breakpoint-up($grid-float-breakpoint) {
+        max-width: 478px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+

@@ -1,0 +1,72 @@
+/* 5.3 Icons ======================================================= */
+
+[class*="fa-"] {
+    display: inline-block;
+}
+
+[class*="fa-"] {
+    //display: inline-block;
+    font: normal normal normal $font-size-regular/1 FontAwesome;
+    font-size: $font-size-regular;
+    margin-right: 5px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s ease-in-out;
+
+    &.logo {
+        max-width: 80px;
+    }
+
+    i {
+        margin: 0;
+    }
+}
+
+.icon-sm { @include icon-size($font-size-small); }
+.icon-md { @include icon-size($font-size-medium); }
+.icon-lg { @include icon-size($font-size-large); }
+.icon-xl { @include icon-size($font-size-extra-large); }
+
+.icon-1 { @include icon-variant($html-text-color, $color-1); }
+.icon-2 { @include icon-variant($btn-font-color, $color-2); }
+.icon-3, .icon-accent { @include icon-variant($btn-font-color, $color-3); }
+.icon-4 { @include icon-variant($btn-font-color, $color-4); }
+.icon-5 { @include icon-variant($btn-font-color, $color-5); }
+
+.list-icon {
+    list-style-type: none;
+
+    li {
+        > * {
+            display: table-cell;
+        }
+
+        i {
+            padding-right: 15px;
+        }
+    }
+}
+
+.icon-block {
+    padding: $padding-default * .25;
+    margin-bottom: $padding-default * .25;
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+img {
+    &.icon {
+        max-width: 60px;
+    }
+}

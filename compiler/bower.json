@@ -1,0 +1,24 @@
+{
+  "name": "alba",
+  "description": "Alba - HTML5 Software & SAAS Template",
+  "main": "",
+  "authors": [
+    "support@5studios.net"
+  ],
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+	"font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    
+  }
+}

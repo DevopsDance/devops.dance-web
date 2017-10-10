@@ -1,0 +1,39 @@
+/* ==========================================================================
+    [9. CUSTOM]
+========================================================================== */
+
+$big-mockup-width: 920px;
+
+p {
+    margin:1.5rem 0;
+}
+
+.mockup {
+    margin: 0 auto;
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.logo {
+    max-width: 220px;
+}
+
+.swiper-container {
+    border: 1px solid rgba($swiper-border-color, 0.2518);
+
+    &.pagination-out {
+        .swiper-wrapper {
+            padding-bottom: 2.5rem;
+        }
+    }
+}
+
+section,
+.section {
+    h2 {
+        font-weight: $font-weight-regular;
+    }
+}

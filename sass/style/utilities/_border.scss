@@ -1,0 +1,135 @@
+/* 2.2 Border ======================================================= */
+
+.b-l {
+    border-left: 1px solid $border-color-default;
+}
+
+.b-r {
+    border-right: 1px solid $border-color-default;
+}
+
+.b-t {
+    border-top: 1px solid $border-color-default;
+}
+
+.b-b {
+    border-bottom: 1px solid $border-color-default;
+}
+
+.b-2x {
+    border-width: 2px;
+}
+
+@each $i, $color in $color-scheme {
+    &.border-#{$i} {
+        border-color: $color;
+    }
+}
+
+.circle {
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0 0 0 1px;
+}
+
+.arrow {
+    position: relative;
+
+    &:after {
+        pointer-events: none;
+        position: absolute;
+        border: 15px solid transparent;
+        content: "";
+        height: 0;
+        width: 0;
+    }
+
+    &.top,
+    &.bottom {
+        &:after {
+            margin-left: -15px;
+            left: 50%;
+        }
+    }
+
+    &.left,
+    &.right {
+        .arrow-outlined:before,
+        &:after {
+            top: 50%;
+            margin-top: -15px;
+        }
+    }
+
+    &.top {
+        &:after {
+            bottom: 100%;
+            border-bottom-color: $border-arrow-color;
+        }
+
+        @each $i, $color in $color-scheme {
+            &.bg-#{$i} {
+                &:after {
+                    border-bottom-color: $color;
+                }
+            }
+        }
+    }
+
+    &.bottom {
+        &:after {
+            top: 100%;
+            border-top-color: $border-arrow-color;
+        }
+
+        @each $i, $color in $color-scheme {
+            &.bg-#{$i} {
+                &:after {
+                    border-top-color: $color;
+                }
+            }
+        }
+    }
+
+    &.left {
+        &:after {
+            right: 100%;
+            border-right-color: $border-arrow-color;
+        }
+
+        @each $i, $color in $color-scheme {
+            &.bg-#{$i} {
+                &:after {
+                    border-right-color: $color;
+                }
+            }
+        }
+    }
+
+    &.right {
+        &:after {
+            left: 100%;
+            border-left-color: $border-arrow-color;
+        }
+
+        @each $i, $color in $color-scheme {
+            &.bg-#{$i} {
+                &:after {
+                    border-left-color: $color;
+                }
+            }
+        }
+    }
+}
+
+.arrow-outlined {
+    &:before {
+        content: '';
+        border: 1px solid #ccc;
+    }
+}
+
+.shadow {
+    //box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+}

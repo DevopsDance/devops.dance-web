@@ -1,0 +1,35 @@
+/* 6.5 Footer ======================================================= */
+
+.site-footer {
+    font-size: .9em;
+
+    h4 {
+        margin-bottom: $padding-default-quarter;
+    }
+
+    [class*='col-'] + [class*='col-'] {
+        margin-top: $padding-default-half;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 90px;
+    }
+
+    @include  media-breakpoint-up($grid-float-breakpoint) {
+        .footer-bottom {
+            text-align: left;
+        }
+
+        .footer-links {
+            text-align: right;
+        }
+
+        [class*='col-'] + [class*='col-'] {
+            margin-top: 0;
+        }
+    }
+}

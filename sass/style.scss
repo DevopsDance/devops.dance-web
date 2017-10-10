@@ -1,0 +1,64 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Title:   Alba [Startup/Software Template] - Main CSS file
+ * Author:  http://themeforest.net/user/5studios | www.5studios.net
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[ TABLE OF CONTENTS ]
+
+1. RESET STYLES
+2. UTILITIES
+    2.1 - Background
+    2.2 - Border
+    2.3 - Lists
+    2.4 - Misc
+    2.5 - Overlay
+    2.6 - Position
+    2.7 - Responsive
+    2.8 - Text
+    2.9 - Badges
+3. NAVIGATION
+    3.1 - Navigation base styles
+4. FORMS
+    4.1 - Form
+    4.2 - Buttons
+5. GENERAL CONTENT STYLES
+    5.1 - Page Loader
+    5.2 - Mockup
+    5.3 - Icons
+6. SECTIONS
+    6.1 - General Styles
+    6.2 - Features
+    6.3 - Signup
+    6.4 - Testimonials
+    6.5 - Footer
+7. PRICING
+    7.1 - General styles
+    7.2 - Pricing heading
+8. PAGE HEADING
+9. CUSTOM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+// Import page styles. Do not remove these references.
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/variables";
+@import "font-awesome/scss/variables";
+
+// Import core stuff
+@import "style/variables";
+@import "style/reset";
+@import "style/__mixins";
+@import "style/__utilities";
+@import "style/__navigation";
+@import "style/__forms";
+
+// Import styles
+@import "style/loader";
+@import "style/mockup";
+@import "style/icons";
+
+@import "style/__section";
+
+@import "style/__pricing";
+@import "style/__heading";
+@import "style/custom";

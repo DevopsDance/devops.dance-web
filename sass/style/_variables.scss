@@ -1,0 +1,122 @@
+// [ FONTS ]
+$font-family-template: "Open Sans", $font-family-base;
+$font-family-complementary: "Open Sans", $font-family-template;
+$font-family-handwritten: "Caveat", cursive, $font-family-template;;
+$font-family-awesome: "FontAwesome";
+
+// Updated to Bootstrap 4 fix
+$grid-float-breakpoint: md;
+$grid-float-breakpoint-max: sm;
+
+// [ COLORS ]
+$color-1: #ffffff !default;
+$color-2: #4E5A70 !default; // these will give us font color
+$color-3: #1B99B9 !default;
+$color-4: #18B295 !default;
+$color-5: #181c1f !default;
+$color-6: #f5f5f5 !default;
+$color-scheme: (1: $color-1, 2: $color-2, 3: $color-3, 4: $color-4, 5: $color-5, 6: $color-6);
+
+// [ DEFAULTS ]
+$input-border: #D8E1E5;
+$padding-default: 60px !default; // ~60px
+$padding-default-half: $padding-default * .5;
+$padding-default-quarter: $padding-default * .25;
+$html-text-color: darken($color-2, 9%) !default; //#263238
+$strike-color: lighten($html-text-color, 8%);
+$strike-color-ondark: darken($color-1, 15%);
+$html-background-color: $color-1 !default;
+$border-radius-default: 2px !default;
+$border-color-default: $input-border;
+$paragraph-margin-default: 1.5rem !default;
+$color-accent: $color-3 !default;
+$border-arrow-color: $color-5;
+$header-link-color: darken($color-6, 5%);
+
+$input-padding-y : $input-btn-padding-y;
+$input-padding-x: $input-btn-padding-x;
+
+$swiper-border-color: $color-5;
+
+// [ SIZES ]
+// fonts
+$font-size-base: 16px;
+$font-size-tiny: $font-size-base * 0.5;
+$font-size-small: $font-size-base * 0.75;
+$font-size-regular: $font-size-base;
+$font-size-medium: $font-size-base * 2;
+$font-size-large: $font-size-base * 3.25;
+$font-size-extra-large: $font-size-base * 4.5;
+$font-size-xx-large: $font-size-base * 6.5;
+
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 900;
+
+// [ HEADINGS ]
+$headings-background-color: $color-1;
+$headings-font-family: $font-family-complementary;
+$headings-font-weight: $font-weight-light;
+
+$font-family-headings: $headings-font-family;
+$font-weight-headings: $headings-font-weight;
+
+// [ NAVIGATION ]
+$navbar-min-height: 90px;
+$navbar-background-color: $color-1;
+$navbar-text-color: $html-text-color;
+$navbar-text-color-hover: $color-3;
+$navbar-text-color-dark: $color-5;
+$navbar-text-color-dark-hover: darken($navbar-text-color-dark, 15%);
+
+$navbar-fixed-top-background-color: transparent;
+$navbar-fixed-text-color: $color-1;
+$navbar-fixed-text-color-hover: darken($color-1, 15%);
+
+$navbar-sticky-background-color : $color-1;
+$navbar-sticky-text-color: $color-2;
+$navbar-sticky-text-color-hover: $color-3;
+
+$navbar-side-width: 250px;
+$navbar-side-background-color: $color-1;
+$navbar-side-text-color: $color-3;
+$navbar-side-text-color-hover: darken($navbar-side-text-color, 15%);
+$navbar-side-border-color: $border-color-default;
+
+// offcanvas
+$nav-header-height: 78px;
+$btn-group-height: 55px;
+$nav-bg-color: #1B99B9; //#4B96AE; //#1B497A;
+$nav-bg-color-gradient: lighten($nav-bg-color, 7%); //#17639E;
+$nav-bg-color-hover: lighten($nav-bg-color-gradient, 5%); //#17639E;
+$nav-border-color: lighten($nav-bg-color-gradient, 3%); //#235182;
+$nav-text-color: #fff;
+$nav-header-bg-color: #fff;
+
+// [ SECTION ]
+$section-padding: $padding-default * 1.5;
+
+// [ FORMS ]
+// inputs
+$input-padding-base: $input-padding-y; // 14px;
+$input-border-color: $border-color-default;
+$input-text-color: darken($input-border-color, 8%);
+$input-text-color-focus: darken($input-text-color, 18%);
+
+// buttons
+$btn-font-family: $font-family-template;
+$btn-font-weight: $font-weight-bold;
+$btn-font-size: 11px;
+$btn-font-color: $color-1 !default;
+$btn-margin-top: $padding-default / 2;
+
+$btn-accent-color: $btn-font-color;
+$btn-accent-bg: $color-accent;
+$btn-accent-border: darken($btn-accent-bg, 5%);
+
+// [BLOG]
+$blog-title-color: $color-5;
+$blog-post-body-bg: $color-6;
+$blog-post-body-bg-hover: $color-1;

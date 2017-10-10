@@ -1,0 +1,46 @@
+/* 2.8 Text ======================================================= */
+
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+
+.bold { font-weight: $font-weight-bold; }
+.thin { font-weight: $font-weight-thin; }
+.light { font-weight: $font-weight-light; }
+.regular { font-weight: $font-weight-regular; }
+.extra-bold { font-weight: $font-weight-extra-bold; }
+
+.strike {
+    text-decoration: line-through;
+    color: $strike-color;
+    font-weight: $font-weight-light;
+
+    &.ondark {
+        color: $strike-color-ondark;
+    }
+}
+
+.accent { color: $color-accent; }
+
+@each $i, $color in $color-scheme {
+    &.color-#{$i} {
+        color: $color;
+
+        @for $a from 1 through 9 {
+            &.alpha-#{$a} {
+                color: rgba($color, ($a * .1));
+            }
+        }
+    }
+}
+
+.color-smoke {
+    color: lighten($color-2, 25%);
+}
+
+.text-center-xs {
+    text-align: center;
+
+    @include media-breakpoint-up($grid-float-breakpoint) {
+        text-align: left;
+    }
+}

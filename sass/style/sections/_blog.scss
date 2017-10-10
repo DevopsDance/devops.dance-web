@@ -1,0 +1,116 @@
+/* 6.6 Blog ======================================================= */
+
+.blog {
+    .image-background {
+        min-height: 201px;
+    }
+
+    &.one-column {
+        @include media-breakpoint-up($grid-float-breakpoint) {
+            .image-background {
+                min-height: 401px;
+            }
+        }
+    }
+
+    .card-title {
+        a {
+            color: $blog-title-color;
+
+            &:hover {
+                color: lighten($blog-title-color, 12%);
+            }
+        }
+    }
+}
+
+.card-light {
+    .card-body {
+        background-color: lighten($blog-post-body-bg, 1%);
+        transition: .4s background-color ease;
+
+        &:hover {
+            background-color: $blog-post-body-bg-hover
+        }
+    }
+}
+
+.blog-inversed {
+    background-color: $blog-post-body-bg;
+
+    .card-light {
+        .card-body {
+            background-color: lighten($blog-post-body-bg-hover, 1%);
+
+            &:hover {
+                background-color: $blog-post-body-bg-hover;
+            }
+        }
+    }
+}
+
+.media-list {
+    img {
+        width: 45px;
+    }
+
+    h5 {
+        color: $color-4 !important;
+        font-weight: $font-weight-regular;
+    }
+
+    .media {
+        border-bottom: 1px solid $border-color-default;
+        padding: 1rem 0;
+
+        &:last-child {
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        p {
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.blog-single-header {
+    padding-bottom: 15rem;
+    background-size: auto 315px;
+}
+
+.post-content {
+    blockquote {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        padding: 15px 15px 15px 40px;
+        position: relative;
+
+        &:before {
+            font-size: $font-size-xx-large;
+            opacity: 0.25;
+            margin-top: -1.5rem;
+            left: 0;
+        }
+
+        p {
+            margin: 0 0 20px !important;
+            font-size: $font-size-medium;
+            line-height: 1.3em;
+            font-weight: $font-weight-bold;
+        }
+
+        h6 {
+            font-weight: $font-weight-regular;
+            color: $color-4;
+
+            .author {
+                color: $text-muted;
+                font-weight: $font-weight-bold;
+                display: block;
+            }
+        }
+    }
+}

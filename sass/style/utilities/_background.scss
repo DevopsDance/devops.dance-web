@@ -1,0 +1,62 @@
+/* 2.1 Background ======================================================= */
+
+.image-background {
+    position: relative;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &.cover {
+        background-size: cover;
+    }
+
+    &.contain {
+        background-size: contain;
+    }
+
+    &.center-top {
+        background-position: center top;
+    }
+
+    &.center-bottom {
+        background-position: center bottom;
+    }
+
+    &.p100-top {
+        background-position: 100% top;
+    }
+
+    &.p100-bottom {
+        background-position: 100% bottom;
+    }
+}
+
+.parallax {
+    position: static;
+
+    &,
+    &.blurred:before {
+        background-attachment: fixed;
+    }
+
+    &.blurred:before {
+        position: absolute;
+    }
+}
+
+@each $i, $color in $color-scheme {
+    &.bg-#{$i} {
+        background-color: $color;
+
+        @for $a from 1 through 9 {
+            &.alpha-#{$a} {
+                background-color: rgba($color, ($a * .1));
+            }
+        }
+    }
+}
+
+.ghost {
+    background-color: transparent;
+    color: $html-text-color;
+}

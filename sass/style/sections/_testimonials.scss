@@ -1,0 +1,31 @@
+/* 6.4 Testimonials ======================================================= */
+
+.singl-testimonial {
+    .text {
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+    }
+
+    .image-background + .text {
+        margin-bottom: 3rem;
+
+        @include media-breakpoint-up($grid-float-breakpoint) {
+            margin-bottom: 0;
+        }
+    }
+
+    &.testimonial-1 {
+        .image-background {
+            background-image: url(../img/section/testimonials/5.jpg);
+            min-height: 390px;
+        }
+    }
+
+    &.testimonial-2 {
+        .image-background {
+            background-image: url(../img/section/testimonials/3.jpg);
+            min-height: 390px;
+        }
+    }
+}

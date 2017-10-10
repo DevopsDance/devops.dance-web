@@ -1,0 +1,22 @@
+/* ==========================================================================
+    [6. ANIMATIONS]
+========================================================================== */
+
+@import "animations/push";
+@import "animations/magnific";
+
+.animation {
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <title>Alba - Premium product showcase</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/bootstrap-slider.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="90">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="page-loader d-flex align-items-center justify-content-center">
+    <div class="container">
+        <img class="logo fading-logo" src="img/logo.png" alt="Alba" />
+    </div>
+</div>
+
+
+
+    <!-- < NAVIGATION WITH BACKGROUND COLOR NAVBAR >............................................ -->
+<nav class="navbar navbar-expand-md navigation sidebar-left">
+    <div class="container">
+    <button class="navbar-toggler" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="#main" class="navbar-brand">
+        <img src="img/logo.png" alt="Alba Template" class="logo">
+    </a>
+
+    <div class="collapse navbar-collapse ml-auto" id="main-navbar">
+        <div class="sidebar-brand">
+            <a href="#main">
+                <img src="img/logo.png" alt="Alba Template" class="logo">
+            </a>
+        </div>
+
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="demo-1.html"><i class="fa-asterisk"></i>Demo 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="demo-2.html"><i class="fa-cogs"></i>Demo 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="demo-3.html"><i class="fa-cogs"></i>Demo 3</a></li>
+            <li class="nav-item"><a class="nav-link" href="demo-4.html"><i class="fa-cogs"></i>Demo 4</a></li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html"><i class="fa-mobile"></i>Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-cubes"></i>Contact</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="blog-menu" data-toggle="dropdown">
+                    Blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="blog-menu">
+                    <p class="bold pl-4 my-0">Posts list</p>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="blog-list-grid.html">Grid layout</a>
+                    <a class="dropdown-item" href="blog-list-grid-inverted.html">Grid layout 2</a>
+                    <a class="dropdown-item" href="blog-list-one-column.html">One column</a>
+                    <a class="dropdown-item" href="blog-list-left-column.html">Left column</a>
+                    <a class="dropdown-item" href="blog-list-right-column.html">Right column</a>
+
+                    <p class="bold pl-4 mb-0">Posts single</p>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="blog-single.html">Single post</a>
+                    <a class="dropdown-item" href="blog-single-left-column.html">Left column</a>
+                    <a class="dropdown-item" href="blog-single-right-column.html">Right column</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+
+<main>
+    
+    <section class="section contact">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Get in touch</h2>
+            <p class="lead">We are here to help, drop us a line if you have any question</p>
+        </div>
+
+        <form action="srv/contact.php" method="post" class="form form-contact" name="form-contact" response-message-animation="slide-in-up">
+    <div class="form-group">
+        <label for="contact_fullname">Full name</label>
+        <input type="text" name="Contact[fullName]" id="contact_fullname" class="form-control bg-1" placeholder="Enter your full Name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="contact_email">Email address</label>
+        <input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Valid Email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+
+    <div class="form-group">
+        <label for="contact_email">Subject</label>
+        <input type="text" name="Contact[subject]" id="contact_subject" class="form-control bg-1" placeholder="Subject" required>
+    </div>
+
+    <div class="form-group">
+        <label for="contact_email">Message</label>
+        <textarea name="Contact[message]" id="contact_message" class="form-control bg-1" placeholder="What do you want to let us know?" rows="8" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <button id="contact-submit" data-loading-text="Sending..." name="submit" type="submit" class="btn btn-primary px-5 py-3">
+            Send Message
+        </button>
+    </div>
+</form>
+
+<div class="response-message">
+    <div class="section-heading">
+        <i class="lnr lnr-thumbs-up font-xl"></i>
+        <h2 class="bold">Thank you!!!</h2>
+        <p class="response">Your message has been send, we will contact you as soon as possible.</p>
+    </div>
+</div>
+
+
+
+    </div>
+</section>
+
+
+</main>
+
+
+    <!-- FOOTER -->
+<footer class="site-footer section bg-5 color-smoke">
+    <div class="container pb-3">
+        <div class="row">
+            <div class="col-12 col-md-5 mr-auto">
+                <!-- <h4 class="color-1">About <span class="bold">Alba</span></h4> -->
+
+                <img src="img/logo.png" class="icon ml-0" alt="">
+
+                <p>Meet <span class="bold">Alba</span>, a carefully crafted and powerful HTML5 Template, it's perfect to showcase any kind of software or startup in a beautiful way.</p>
+            </div>
+
+            <div class="col-12 col-md-2">
+                <h4 class="color-1"><span class="bold">Follow</span> Us</h4>
+
+                <nav class="nav flex-column mt-3">
+                    <a class="nav-link pl-0" href="#"><i class="fa-facebook"></i> Facebook</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-twitter"></i> Twitter</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-behance"></i> Behance</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-instagram"></i> Instagram</a>
+                </nav>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <h4 class="color-1">Stay<span class="bold"> in touch</span></h4>
+
+                <p>By registering with us, you will receive right in your inbox all new features and updates.<span class="bold">Register now!</span></p>
+
+                <button class="btn btn-rounded btn-outline-2">
+                    Register Now
+                </button>
+            </div>
+        </div>
+
+        <hr class="mt-5 bg-2 border-0">
+        <div class="row footer-bottom small">
+            <div class="col">
+                <p class="mt-2 mb-0">© 2017 5studios. All Rights Reserved</p>
+            </div>
+
+            <div class="col-sm-6 col-md-auto">
+                <nav class="nav">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                    <a class="nav-link" href="#">Terms of Service</a>
+                    <a class="nav-link" href="#">Sitemap</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/popper.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/aos.min.js"></script>
+<script src="js/bootstrap-slider.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/modernizr-2.8.3.min.js"></script>
+
+<script src="js/forms.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

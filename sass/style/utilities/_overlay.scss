@@ -1,0 +1,87 @@
+/* 2.5 Overlay ======================================================= */
+
+$color-overlay: #27333E;
+
+.overlay {
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0;
+        background-color: rgba($color-overlay,0.6);
+        opacity: 1;
+        z-index: 0;
+    }
+
+    .container,
+    .container-fluid,
+    > .content {
+        position: relative;
+        z-index: 1;
+    }
+
+    > .content {
+        position: relative;
+    }
+
+    &.gradient {
+        &.to-left {
+            &:after {
+                background: linear-gradient(to left, $color-overlay 50%, rgba($color-overlay, 0.6));
+            }
+        }
+
+        &.to-right {
+            &:after {
+                background: linear-gradient(to right, $color-overlay 50%, rgba($color-overlay, 0.6));
+            }
+        }
+    }
+
+    @each $c, $color in $color-scheme {
+        &.overlay-#{$c} {
+            &:after {
+                background-color: rgba($color, .5);
+            }
+
+            &.gradient {
+                &.to-left {
+                    &:after {
+                        background: linear-gradient(to left, $color 50%, rgba($color, 0.6));
+                    }
+                }
+
+                &.to-right {
+                    &:after {
+                        background: linear-gradient(to right, $color 50%, rgba($color, 0.6));
+                    }
+                }
+            }
+
+            @for $a from 1 through 9 {
+                $transparency: $a * .1;
+
+                &.alpha-#{$a} {
+                    &:after {
+                        background-color: rgba($color, $transparency);
+                    }
+
+                    &.gradient {
+                        &.to-left {
+                            &:after {
+                                background: linear-gradient(to left, $color 50%, rgba($color, $transparency));
+                            }
+                        }
+
+                        &.to-right {
+                            &:after {
+                                background: linear-gradient(to right, $color 50%, rgba($color, $transparency));
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

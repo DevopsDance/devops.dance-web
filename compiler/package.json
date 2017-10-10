@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-sass": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "http://www.5studios.net",
+  "name": "App5",
+  "private": true,
+  "scripts": {
+    "build": "gulp scss",
+    "test": "gulp scss"
+  },
+  "version": "1.0.0"
+}
