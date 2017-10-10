@@ -1,0 +1,10 @@
+---
+deployment:
+  nomad:
+    port: 80
+    tags:
+      - http-service
+  docker:
+    limits:
+      cpu: M
+      ram: M

@@ -1,0 +1,16 @@
+---
+pipeline:
+  docker:
+    image: plugins/docker
+    repo: docker-registry.otwarte.xyz/${DRONE_REPO_NAME}
+    tags:
+      - ${DRONE_COMMIT:0:7}
+
+  deploy:
+    image: python:2
+    commands:
+      - pip install PyYaml jinja2 requests raven
+      - curl -SsL https://raw.githubusercontent.com/bjarocki/ok-tools/master/nomad-job-builder.py -o nomad-job-builder.py
+      - python nomad-job-builder.py
+    when:
+      branch: master
