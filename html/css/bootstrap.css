@@ -195,7 +195,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  color: #0A1829;
   text-decoration: underline;
 }
 
@@ -2463,7 +2463,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-link:focus, .btn-link:hover {
-  color: #0056b3;
+  color: #0A1829;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3923,7 +3923,7 @@ tbody.collapse.show {
 }
 
 .page-link:focus, .page-link:hover {
-  color: #0056b3;
+  color: #0A1829;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #ddd;
