@@ -184,23 +184,23 @@ textarea {
 .bg-3 {
   background-color: #1B99B9; }
   .bg-3.alpha-1 {
-    background-color: rgba(27, 153, 185, 0.1); }
+    background-color: rgba(10, 24, 41, 0.1); }
   .bg-3.alpha-2 {
-    background-color: rgba(27, 153, 185, 0.2); }
+    background-color: rgba(10, 24, 41, 0.2); }
   .bg-3.alpha-3 {
-    background-color: rgba(27, 153, 185, 0.3); }
+    background-color: rgba(10, 24, 41, 0.3); }
   .bg-3.alpha-4 {
-    background-color: rgba(27, 153, 185, 0.4); }
+    background-color: rgba(10, 24, 41, 0.4); }
   .bg-3.alpha-5 {
-    background-color: rgba(27, 153, 185, 0.5); }
+    background-color: rgba(10, 24, 41, 0.5); }
   .bg-3.alpha-6 {
-    background-color: rgba(27, 153, 185, 0.6); }
+    background-color: rgba(10, 24, 41, 0.6); }
   .bg-3.alpha-7 {
-    background-color: rgba(27, 153, 185, 0.7); }
+    background-color: rgba(10, 24, 41, 0.7); }
   .bg-3.alpha-8 {
-    background-color: rgba(27, 153, 185, 0.8); }
+    background-color: rgba(10, 24, 41, 0.8); }
   .bg-3.alpha-9 {
-    background-color: rgba(27, 153, 185, 0.9); }
+    background-color: rgba(10, 24, 41, 0.9); }
 
 .bg-4 {
   background-color: #18B295; }
@@ -619,85 +619,85 @@ blockquote {
     background: -webkit-gradient(linear, left top, right top, color-stop(50%, #4E5A70), to(rgba(78, 90, 112, 0.9)));
     background: linear-gradient(to right, #4E5A70 50%, rgba(78, 90, 112, 0.9)); }
   .overlay.overlay-3:after {
-    background-color: rgba(27, 153, 185, 0.5); }
+    background-color: rgba(10, 24, 41, 0.5); }
   .overlay.overlay-3.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.6)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.6)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.6)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.6)); }
   .overlay.overlay-3.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.6)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.6)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.6)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.6)); }
   .overlay.overlay-3.alpha-1:after {
-    background-color: rgba(27, 153, 185, 0.1); }
+    background-color: rgba(10, 24, 41, 0.1); }
   .overlay.overlay-3.alpha-1.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.1)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.1)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.1)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.1)); }
   .overlay.overlay-3.alpha-1.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.1)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.1)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.1)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.1)); }
   .overlay.overlay-3.alpha-2:after {
-    background-color: rgba(27, 153, 185, 0.2); }
+    background-color: rgba(10, 24, 41, 0.2); }
   .overlay.overlay-3.alpha-2.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.2)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.2)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.2)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.2)); }
   .overlay.overlay-3.alpha-2.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.2)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.2)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.2)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.2)); }
   .overlay.overlay-3.alpha-3:after {
-    background-color: rgba(27, 153, 185, 0.3); }
+    background-color: rgba(10, 24, 41, 0.3); }
   .overlay.overlay-3.alpha-3.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.3)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.3)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.3)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.3)); }
   .overlay.overlay-3.alpha-3.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.3)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.3)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.3)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.3)); }
   .overlay.overlay-3.alpha-4:after {
-    background-color: rgba(27, 153, 185, 0.4); }
+    background-color: rgba(10, 24, 41, 0.4); }
   .overlay.overlay-3.alpha-4.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.4)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.4)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.4)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.4)); }
   .overlay.overlay-3.alpha-4.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.4)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.4)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.4)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.4)); }
   .overlay.overlay-3.alpha-5:after {
-    background-color: rgba(27, 153, 185, 0.5); }
+    background-color: rgba(10, 24, 41, 0.5); }
   .overlay.overlay-3.alpha-5.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.5)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.5)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.5)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.5)); }
   .overlay.overlay-3.alpha-5.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.5)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.5)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.5)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.5)); }
   .overlay.overlay-3.alpha-6:after {
-    background-color: rgba(27, 153, 185, 0.6); }
+    background-color: rgba(10, 24, 41, 0.6); }
   .overlay.overlay-3.alpha-6.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.6)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.6)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.6)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.6)); }
   .overlay.overlay-3.alpha-6.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.6)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.6)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.6)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.6)); }
   .overlay.overlay-3.alpha-7:after {
-    background-color: rgba(27, 153, 185, 0.7); }
+    background-color: rgba(10, 24, 41, 0.7); }
   .overlay.overlay-3.alpha-7.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.7)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.7)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.7)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.7)); }
   .overlay.overlay-3.alpha-7.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.7)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.7)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.7)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.7)); }
   .overlay.overlay-3.alpha-8:after {
-    background-color: rgba(27, 153, 185, 0.8); }
+    background-color: rgba(10, 24, 41, 0.8); }
   .overlay.overlay-3.alpha-8.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.8)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.8)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.8)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.8)); }
   .overlay.overlay-3.alpha-8.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.8)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.8)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.8)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.8)); }
   .overlay.overlay-3.alpha-9:after {
-    background-color: rgba(27, 153, 185, 0.9); }
+    background-color: rgba(10, 24, 41, 0.9); }
   .overlay.overlay-3.alpha-9.gradient.to-left:after {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.9)));
-    background: linear-gradient(to left, #1B99B9 50%, rgba(27, 153, 185, 0.9)); }
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.9)));
+    background: linear-gradient(to left, #1B99B9 50%, rgba(10, 24, 41, 0.9)); }
   .overlay.overlay-3.alpha-9.gradient.to-right:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(27, 153, 185, 0.9)));
-    background: linear-gradient(to right, #1B99B9 50%, rgba(27, 153, 185, 0.9)); }
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1B99B9), to(rgba(10, 24, 41, 0.9)));
+    background: linear-gradient(to right, #1B99B9 50%, rgba(10, 24, 41, 0.9)); }
   .overlay.overlay-4:after {
     background-color: rgba(24, 178, 149, 0.5); }
   .overlay.overlay-4.gradient.to-left:after {
@@ -1087,23 +1087,23 @@ blockquote {
 .color-3 {
   color: #1B99B9; }
   .color-3.alpha-1 {
-    color: rgba(27, 153, 185, 0.1); }
+    color: rgba(10, 24, 41, 0.1); }
   .color-3.alpha-2 {
-    color: rgba(27, 153, 185, 0.2); }
+    color: rgba(10, 24, 41, 0.2); }
   .color-3.alpha-3 {
-    color: rgba(27, 153, 185, 0.3); }
+    color: rgba(10, 24, 41, 0.3); }
   .color-3.alpha-4 {
-    color: rgba(27, 153, 185, 0.4); }
+    color: rgba(10, 24, 41, 0.4); }
   .color-3.alpha-5 {
-    color: rgba(27, 153, 185, 0.5); }
+    color: rgba(10, 24, 41, 0.5); }
   .color-3.alpha-6 {
-    color: rgba(27, 153, 185, 0.6); }
+    color: rgba(10, 24, 41, 0.6); }
   .color-3.alpha-7 {
-    color: rgba(27, 153, 185, 0.7); }
+    color: rgba(10, 24, 41, 0.7); }
   .color-3.alpha-8 {
-    color: rgba(27, 153, 185, 0.8); }
+    color: rgba(10, 24, 41, 0.8); }
   .color-3.alpha-9 {
-    color: rgba(27, 153, 185, 0.9); }
+    color: rgba(10, 24, 41, 0.9); }
 
 .color-4 {
   color: #18B295; }
@@ -1688,8 +1688,8 @@ form .form-group label.error, .form .form-group label.error {
     background-color: #167d98;
     border-color: #15748c; }
   .btn-3:focus, .btn-3.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5);
-            box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5); }
+    -webkit-box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5);
+            box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5); }
   .btn-3.disabled, .btn-3:disabled {
     background-color: #1B99B9;
     border-color: #1B99B9; }
@@ -1709,8 +1709,8 @@ form .form-group label.error, .form .form-group label.error {
     background-color: #1B99B9;
     border-color: #1B99B9; }
   .btn-outline-3:focus, .btn-outline-3.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5);
-            box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5); }
+    -webkit-box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5);
+            box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5); }
   .btn-outline-3.disabled, .btn-outline-3:disabled {
     color: #1B99B9;
     background-color: transparent; }
@@ -1852,8 +1852,8 @@ form .form-group label.error, .form .form-group label.error {
     background-color: #167d98;
     border-color: #15748c; }
   .btn-accent:focus, .btn-accent.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5);
-            box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5); }
+    -webkit-box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5);
+            box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5); }
   .btn-accent.disabled, .btn-accent:disabled {
     background-color: #1B99B9;
     border-color: #1B99B9; }
@@ -1873,8 +1873,8 @@ form .form-group label.error, .form .form-group label.error {
     background-color: #1B99B9;
     border-color: #1B99B9; }
   .btn-outline-accent:focus, .btn-outline-accent.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5);
-            box-shadow: 0 0 0 3px rgba(27, 153, 185, 0.5); }
+    -webkit-box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5);
+            box-shadow: 0 0 0 3px rgba(10, 24, 41, 0.5); }
   .btn-outline-accent.disabled, .btn-outline-accent:disabled {
     color: #1B99B9;
     background-color: transparent; }
