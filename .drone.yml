@@ -9,8 +9,7 @@ pipeline:
   deploy:
     image: python:2
     secrets:
-      - source: testing
-        target: testing
+      - testing
     commands:
       - pip install PyYaml jinja2 requests raven
       - curl -SsL https://raw.githubusercontent.com/bjarocki/ok-tools/master/nomad-job-builder.py -o nomad-job-builder.py
