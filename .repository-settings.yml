@@ -1,0 +1,12 @@
+---
+deployment:
+  nomad:
+    port: 80
+    tags:
+      - http-service
+    secrets:
+      - TESTING
+  docker:
+    limits:
+      cpu: M
+      ram: M

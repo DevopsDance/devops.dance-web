@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DevOps.dance</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Noto+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+    <link rel="stylesheet" href="assets/styles/main.css" media="all">
+</head>
+
+<body id="site" class="site">
+    <a href="#content" class="sr-only">Skip to content</a>
+
+    <header id="page-header" class="bg--primary section page-header">
+        <div class="page-header__content">
+            <h1 class="text--hide logo logo--light">DevOps.dance</h1>
+
+            <input type="checkbox" id="main-nav-trigger" class="nav-trigger">
+            <label for="main-nav-trigger">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="nav-trigger__bar"></span>
+                <span class="nav-trigger__bar"></span>
+                <span class="nav-trigger__bar"></span>
+            </label>
+            <nav class="main-nav">
+                <h2 class="sr-only">Navigation</h2>
+                <ul class="list--unstyled">
+                    <li class="nav-item">
+                        <a href="#services" class="nav-item__link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#growth" class="nav-item__link">Benefits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#our-team" class="nav-item__link">Our team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-item__link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn btn--secondary">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="jumbotron" class="bg--primary section jumbotron">
+        <div class="jumbotron__content">
+            <div class="jumbotron__header">
+                <h2 class="heading--light m-t-0 jumbotron__heading">How to improve security in your company?</h2>
+                <p class="text--light">Switch To Service Discovery, use configuration management tools like Chef/Puppet, start with Role Based Configuration.
+                    To help undestand impact of every change you make and drastically reduce debugging time.
+                </p>
+                <div class="text--center jumbotron__buttons">
+                    <a href="#" class="btn btn--primary">Talk to us</a>
+                    <a href="#" class="btn btn--secondary">Learn more</a>
+                </div>
+            </div>
+            <div class="jumbotron__icon"></div>
+        </div>
+    </div>
+
+    <main id="content" class="content">
+        <section id="growth" class="section growth">
+            <div class="growth__content">
+                <div class="growth__header">
+                    <h2 class="section__heading">Growth</h2>
+                    <p class="lead">Gain confidence if you want to
+                        <strong>growth fast</strong>
+                    </p>
+
+                    <img src="assets/images/chart.svg" alt="Chart" class="chart__icon">
+                </div>
+
+                <ul class="list--unstyled text--light icon__list growth__list">
+                    <li>Reduce complexity and switch to Service Discovery. Use configuration management Tools like
+                        <strong>Chef/Puppet</strong>, Start With Role Based Configuration</li>
+                    <li>Improve your monitoring to help understand impact of every change you make and drastically reduce debugging
+                        time.
+                    </li>
+                    <li>Continuos Integration, Delivery and Deployment, so that you can actually move fast.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="security" class="bg--secondary">
+            <div class="security__content">
+                <div class="section">
+                    <h2 class="section__heading">Security</h2>
+                    <p class="lead">Improve
+                        <strong>Security</strong>
+                    </p>
+
+                    <ul class="list--unstyled text--light icon__list security__list">
+                        <li>Infrastructure as a code means you get a testable and consistent state of everything you run across
+                            your fleet
+                        </li>
+                        <li>Role Based Access Control</li>
+                        <li>Unified Workflows and Tooling as your guidance and map of your infrastructure</li>
+                    </ul>
+                </div>
+
+                <div class="security__icon"></div>
+            </div>
+        </section>
+
+        <section id="costs" class="section">
+            <div class="costs__content">
+                <div>
+                    <h2 class="section__heading">Costs</h2>
+                    <p class="lead">Reduce
+                        <strong>Operational Costs</strong>
+                    </p>
+                    <ul class="list--unstyled text--light icon__list costs__list">
+                        <li>Run Dynamic Infrastructure That Follows Your Needs. Stop wasting your budget on idle resources/</li>
+                        <li>Increase Hardware Utilization and run your isolated services based on resources expectations.</li>
+                    </ul>
+                </div>
+                <img src="assets/images/piggybank.svg" alt="Chart" class="costs__icon">
+            </div>
+        </section>
+
+        <section id="team" class="section bg--secondary">
+            <div class="team__content">
+                <img src="assets/images/group.svg" alt="Group" class="team__icon">
+                <div>
+                    <h2 class="section__heading">Team</h2>
+                    <p class="lead">Make your
+                        <strong>team happy</strong>
+                    </p>
+                    <ul class="list--unstyled text--light icon__list team__list">
+                        <li>Reduce Stress by Sharing Knowledge, Responsibilities and Reducing Complexity</li>
+                        <li>Better Sleep by Reducing Interruptions/Wakeups</li>
+                        <li>Reasonable Working Hours once you stop fighting with fire</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="bg--primary section services">
+            <div class="services__content">
+                <h2 class="section__heading">Services</h2>
+                <p class="lead heading--light">What can we do to make
+                    <b>you get there?</b>
+                </p>
+
+                <ul class="list--unstyled icon__list services__list">
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Run software in containers (Docker)</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Increase Hardware Utilization</li>
+                            <li>Eliminate System Dependency Nightmare (Izolation)</li>
+                            <li>Reduce Time to Deliver</li>
+                            <li>Eases Development Process</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Infrastructure as Code</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Consistent source of configuration</li>
+                            <li>Track all changes in version control system like git</li>
+                            <li>Benefit from git flow (branching, pull request, reviews, etc.)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Build and maintain IT infrastructure with focus on:</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Performance</li>
+                            <li>Scalability</li>
+                            <li>High Availibility</li>
+                            <li>Security</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Application Performance Monitoring</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Reduce Debugging Time</li>
+                            <li>Help to Understand Resources Allocation</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Service Discovery</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Reduce configuration complexity</li>
+                            <li>Eliminate service downtime</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">HumanOps</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Ease communication</li>
+                            <li>Reduce fatigue</li>
+                            <li>Eliminate stress</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Infrastructure Monitoring</h3>
+                        </div>
+                        <ul class="text--light list--unstyled icon__list">
+                            <li>Setup Tools and Best Practices</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="services__list__header">
+                            <span class="services__list__icon"></span>
+                            <h3 class="heading--light">Continous Integration, Delivery and Deployment</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="our-team" class="bg--secondary">
+            <div class="our-team__content">
+                <header class="section our-team__header">
+                    <h2 class="section__heading">Our team</h2>
+                    <p class="lead">We're responsible for
+                        <strong>your success</strong>
+                    </p>
+
+                    <a href="#" class="text--uppercase">Contact us</a>
+                </header>
+            </div>
+
+            <ul class="list--unstyled our-team__list">
+                <li>
+                    <div>
+                        <img src="assets/images/kuba.jpg" alt="Jakub Hajek">
+                        <div>
+                            <span class="text--uppercase our-team__role">Dev master</span>
+                            <h3>Jakub Hajek</h3>
+                            <a href="#" class="linkedin">
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="assets/images/bartek.jpg" alt="Bartek Jarocki">
+                        <div>
+                            <span class="text--uppercase our-team__role">Dev ninja</span>
+                            <h3>Bartek Jarocki</h3>
+                            <a href="#" class="linkedin">
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="assets/images/jacek.jpg" alt="Jacek Szpot">
+                        <div>
+                            <span class="text--uppercase our-team__role">Dev hero</span>
+                            <h3>Jacek Szpot</h3>
+                            <a href="#" class="linkedin">
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="blog" class="bg--secondary section">
+            <div class="blog__content">
+                <header class="blog__header">
+                    <h2 class="section__heading">Blog</h2>
+                    <p class="lead">What's new?</p>
+
+                    <a href="#" class="text--uppercase">Read our blog</a>
+                </header>
+
+                <ul class="list--unstyled blog__list">
+                    <li>
+                        <article>
+                            <img src="" alt="" class="blog__fake-img blog__fake-img--a">
+                            <h3>An Introduction to Continuous Integration and Workflows</h3>
+                            <p class="text--light">Learn about the benefits of continuous integration in the software development lifecycle, and
+                                how to achieve it using Jenkins and Maven plugins.</p>
+                            <a href="#">Continue reading</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <img src="" alt="" class="blog__fake-img blog__fake-img--b">
+                            <h3>What Are Cloud Leaks? Breaches, Hacks, Leaks, Attacks</h3>
+                            <p class="text--light">It seems like every day there's a new incident of customer data exposure. Credit card and bank
+                                account number.
+                            </p>
+                            <a href="#">Continue reading</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <img src="" alt="" class="blog__fake-img blog__fake-img--c">
+                            <h3>Top Information Technology Trends And Predictions For 2018</h3>
+                            <p class="text--light">Learn about the benefits of continuous integration in the software development lifecycle, and
+                                how to achieve it using Jenkins and maven plugins.</p>
+                            <a href="#">Continue reading</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div id="contact-us" class="bg--primary section">
+            <div class="contact-us__content">
+                <div>
+                    <p class="lead heading--light">Would you like to
+                        <strong>start to cooperate</strong>?</p>
+                    <p class="text--light">We have a great birtual coffee to share with you.</p>
+                </div>
+                <a href="#" class="m-t-1 m-b-1 btn btn--primary">Talk to us</a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="page-footer" class="section text--center page-footer">
+        <div class="page-footer__content">
+            <img src="assets/images/logo-dark.svg" alt="DevOps.dance logo" class="m-y-2">
+            <nav class="secondary-nav m-y-2">
+                <h2 class="sr-only">Secondary navigation</h2>
+                <ul class="list--unstyled">
+                    <li class="nav-item">
+                        <a href="#services" class="nav-item__link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#growth" class="nav-item__link">Benefits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#our-team" class="nav-item__link">Our team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-item__link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-item__link">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="scroll-top-wrapper">
+                <a href="#site" class="scroll-top-btn">
+                    <span class="sr-only">Scroll to top</span>
+                </a>
+            </div>
+            <div class="page-footer__copyrights">
+                <p>&copy; 2018 DevOps.dance. All rights reserved.</p>
+                <p>Design by Joanna Ostafin @Project: People</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88003683-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-88003683-1');
+    </script>
+</body>
+
+</html>

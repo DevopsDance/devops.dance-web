@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 389 307" width="389" height="307">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="157.367" y1="183.366" x2="223.721" y2="290.523">
+			<stop offset="0" stop-color="#7790e8"  />
+			<stop offset="1" stop-color="#4257cd" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill-opacity: 0.11;fill: url(#grd1) } 
+		.shp1 { fill: #7388ff } 
+		.shp2 { fill: #4257cd } 
+		.shp3 { fill: #586cd9 } 
+		.shp4 { fill: #8396ff } 
+		.shp5 { fill: #586dda } 
+		.shp6 { fill: #98a7ff } 
+		.shp7 { fill: #7288ff } 
+		.shp8 { fill: #a5b3ff } 
+		.shp9 { fill: #92a2ff } 
+		.shp10 { fill: #b6c1ff } 
+		.shp11 { fill: #a6b3ff } 
+		.shp12 { fill: #d2d9ff } 
+		.shp13 { fill: none;stroke: #f0f3fc;stroke-linecap:round } 
+	</style>
+	<g id="iso">
+		<path id="Combined Shape" class="shp0" d="M118.03,270.06l22.94,-15.49l47.12,29.49l22.13,-14.8l36.91,23.1l23.07,-15.41l-153.34,-95.97l-22.61,14.5l-22.72,15.63l-22.95,15.48l-0.82,-0.52l-23.37,15.22l38.88,24.33l23.37,-15.22zM365.27,306.61l23.11,-15.39l-224.66,-140.61l-23.11,15.39l-1.09,-0.68l-23.1,15.39l186.61,116.8l23.1,-15.39z" />
+		<path id="Fill 25" class="shp1" d="M149,29l25,-14.5l-25,-14.5l-25,14.5l25,14.5" />
+		<path id="Fill 26" class="shp2" d="M149,171l25,-14.4v-142.6l-25,14.4v142.6" />
+		<path id="Fill 27" class="shp3" d="M149,170v-141.69l-25,-14.31l0,141.69l25,14.31" />
+		<path id="Fill 28" class="shp4" d="M124,67l25,-14.5l-25,-14.5l-25,14.5l25,14.5" />
+		<path id="Fill 29" class="shp5" d="M124,186l25,-14.31v-117.69l-25,14.31l0,117.69" />
+		<path id="Fill 30" class="shp1" d="M124,184l0,-117.69l-25,-14.31v117.69l25,14.31" />
+		<path id="Fill 31" class="shp6" d="M100,102l25,-14.5l-25,-14.5l-25,14.5l25,14.5" />
+		<path id="Fill 32" class="shp7" d="M99,200l25,-14.29l0,-96.71l-25,14.29v96.71" />
+		<path id="Fill 33" class="shp4" d="M100,198v-96.71l-25,-14.29v96.71l25,14.29" />
+		<path id="Fill 34" class="shp8" d="M75,140l25,-14.5l-25,-14.5l-25,14.5l25,14.5" />
+		<path id="Fill 35" class="shp4" d="M75,214l25,-14.28v-73.72l-25,14.28v73.72" />
+		<path id="Fill 36" class="shp9" d="M75,213v-73.72l-25,-14.28v73.72l25,14.28" />
+		<path id="Fill 37" class="shp10" d="M50,185l25,-14.5l-25,-14.5l-25,14.5l25,14.5" />
+		<path id="Fill 38" class="shp9" d="M50,228l25,-14.21v-43.79l-25,14.21v43.79" />
+		<path id="Fill 39" class="shp8" d="M50,228v-43.79l-25,-14.21v43.79l25,14.21" />
+		<path id="Fill 41" class="shp11" d="M25,242l25,-14.48v-24.52l-25,14.48v24.52" />
+		<path id="Fill 42" class="shp10" d="M25,242v-24.52l-25,-14.48v24.52l25,14.48" />
+		<path id="Fill 40" class="shp12" d="M25,218l25,-14.5l-25,-14.5l-25,14.5l25,14.5" />
+		<path id="Line 4" class="shp13" d="M26.5,241.5l147,-84" />
+	</g>
+</svg>
